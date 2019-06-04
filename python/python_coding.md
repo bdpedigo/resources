@@ -13,7 +13,8 @@
     - Visual analysis and diagnostic tools to facilitate machine learning model selection.
     
 - scikit-plot
-    - 
+    - https://github.com/reiinakano/scikit-plot
+    - plotting for sklearn objects
     
 - scikit-learn-extras 
     - https://github.com/scikit-learn-contrib/scikit-learn-extra
