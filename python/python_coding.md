@@ -20,4 +20,11 @@
     - https://github.com/scikit-learn-contrib/scikit-learn-extra
     - other stuff that isn't in sklearn
     
-   
+- tpot
+    - https://github.com/EpistasisLab/tpot 
+    - auto-ml
+    
+- auto-sklearn
+    - https://automl.github.io/auto-sklearn/master/index.html
+    - auto-ml
+    
