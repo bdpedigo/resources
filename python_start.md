@@ -22,9 +22,12 @@ Install [VS Code Python Extension](https://code.visualstudio.com/docs/python/pyt
 Other recommentations (Pedigo needs to finish this part)
 - VS Code Python data science tools 
    - Running cells 
-   - Known bugs 
    - Formatting plots nicely
+- Known bugs 
+   - Terminal environment activation starting late
+   - Backend jupyter notebook not restarting when running code cells
 - Testing with Pytest
 - Formatting code with Black
 - Linting with Flake8
+- Refactoring with Rope
 - Setting up Github
