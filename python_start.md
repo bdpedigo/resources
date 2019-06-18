@@ -24,8 +24,11 @@ Install [VS Code Python Extension](https://code.visualstudio.com/docs/python/pyt
 - Follow the rest of the instructions to go through creating and running a new Python file
 
 ---
-There are other libraries that I find very useful while programming in VS Code. In all of the below, I am 
-showing the ```settings.json``` argument to change in order to activate these libraries.
+There are other libraries that I find very useful while programming in VS Code. 
+
+Modifying settings in VS Code
+In all of the below, I am showing the ```settings.json``` argument to change
+in order to activate these libraries.
 
 
 Formatting code 
@@ -33,7 +36,7 @@ Formatting code
 - It is very nice to not have to worry about line overhangs, spacing, etc. 
 - To set up:
    - ```"python.formatting.provider" : "black"```
-   - This may prompt VS Code to ask you if you want to install Black
+   - VS Code may prompt you to install flake8 Black
    - Otherwise, run ```pip install black``` while in the correct virtual/conda environment
    
 Linting
@@ -42,7 +45,18 @@ Linting
    - ```"python.linting.enabled" : true```
    - ```"python.linting.flake8Enabled" : true```
    - VS Code may prompt you to install flake8
-   - Otherwise, run ```pip install flake8```
+   - Otherwise, run ```pip install flake8``` while in the correct virtual/conda environment
+   
+Rope
+- I use [rope](https://github.com/python-rope/rope/blob/master/docs/rope.rst) to refactor my Python code
+- Refactoring allows you to right-click the name of something in your code and change its name. It can 
+  also refactor functions or variables for you. 
+  
+Sort Imports 
+- VS Code uses [isort](https://isort.readthedocs.io/en/latest/) to sort imports 
+- This should be enabled by default
+
+
 
 Other recommentations (Pedigo needs to finish this part)
 - VS Code Python data science tools 
@@ -52,6 +66,5 @@ Other recommentations (Pedigo needs to finish this part)
    - Terminal environment activation starting late
    - Backend jupyter notebook not restarting when running code cells
 - Testing with Pytest
-- Linting with Flake8
 - Refactoring with Rope
 - Setting up Github
