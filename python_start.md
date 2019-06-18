@@ -11,7 +11,7 @@ Create a [conda environment](https://docs.conda.io/projects/conda/en/latest/user
 - From the command line, run 
    - ```$ conda create -n {my_environment_name} python=3.7```
 - You can also install packages and specify versions at creation
-   - ```$ conda create -n myenv python=3.7 scipy=0.15.0```
+   - ```$ conda create -n {my_environment_name} python=3.7 scipy=0.15.0```
 - See the linked tutorial above for more details
 
 Install [VS Code](https://code.visualstudio.com/docs/setup/setup-overview)
@@ -36,25 +36,30 @@ Formatting code
 - It is very nice to not have to worry about line overhangs, spacing, etc. 
 - To set up:
    - ```"python.formatting.provider" : "black"```
-   - VS Code may prompt you to install flake8 Black
-   - Otherwise, run ```pip install black``` while in the correct virtual/conda environment
+   - VS Code may prompt you to install ```Black```
+   - Otherwise, run ```$ pip install black``` while in the correct virtual/conda environment
    
 Linting
 - I use [flake8]() to [lint](https://en.wikipedia.org/wiki/Lint_(software)) my Python code
 - To set up:
    - ```"python.linting.enabled" : true```
    - ```"python.linting.flake8Enabled" : true```
-   - VS Code may prompt you to install flake8
-   - Otherwise, run ```pip install flake8``` while in the correct virtual/conda environment
+   - VS Code may prompt you to install ```flake8```
+   - Otherwise, run ```$ pip install flake8``` while in the correct virtual/conda environment
    
 Rope
 - I use [rope](https://github.com/python-rope/rope/blob/master/docs/rope.rst) to refactor my Python code
 - Refactoring allows you to right-click the name of something in your code and change its name. It can 
   also refactor functions or variables for you. 
+- To set up: 
+   - Right-click on a variable and attempt to do "Rename symbol"
+   - VS Code should prompt you to install ```rope```
+   - Otherwise, run ```pip install rope```
   
 Sort Imports 
 - VS Code uses [isort](https://isort.readthedocs.io/en/latest/) to sort imports 
 - This should be enabled by default
+- To use, right-click anywhere in your file and select sort imports
 
 
 
@@ -66,5 +71,4 @@ Other recommentations (Pedigo needs to finish this part)
    - Terminal environment activation starting late
    - Backend jupyter notebook not restarting when running code cells
 - Testing with Pytest
-- Refactoring with Rope
 - Setting up Github
