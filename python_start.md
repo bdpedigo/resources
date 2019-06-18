@@ -23,6 +23,27 @@ Install [VS Code Python Extension](https://code.visualstudio.com/docs/python/pyt
    - More details on selecting an environment [here](https://code.visualstudio.com/docs/python/environments)
 - Follow the rest of the instructions to go through creating and running a new Python file
 
+---
+There are other libraries that I find very useful while programming in VS Code. In all of the below, I am 
+showing the ```settings.json``` argument to change in order to activate these libraries.
+
+
+Formatting code 
+- I use [Black](https://black.readthedocs.io/en/stable/) as my code formatter 
+- It is very nice to not have to worry about line overhangs, spacing, etc. 
+- To set up:
+   - ```"python.formatting.provider" : "black"```
+   - This may prompt VS Code to ask you if you want to install Black
+   - Otherwise, run ```pip install black``` while in the correct virtual/conda environment
+   
+Linting
+- I use [flake8]() to [lint](https://en.wikipedia.org/wiki/Lint_(software)) my Python code
+- To set up:
+   - ```"python.linting.enabled" : true```
+   - ```"python.linting.flake8Enabled" : true```
+   - VS Code may prompt you to install flake8
+   - Otherwise, run ```pip install flake8```
+
 Other recommentations (Pedigo needs to finish this part)
 - VS Code Python data science tools 
    - Running cells 
@@ -31,7 +52,6 @@ Other recommentations (Pedigo needs to finish this part)
    - Terminal environment activation starting late
    - Backend jupyter notebook not restarting when running code cells
 - Testing with Pytest
-- Formatting code with Black
 - Linting with Flake8
 - Refactoring with Rope
 - Setting up Github
