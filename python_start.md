@@ -1,3 +1,7 @@
+# Pedigo's Python development recommendations
+Please let me know if anything is confusing or could be explained better
+
+-------
 Get [miniconda](https://docs.conda.io/en/latest/miniconda.html)
 - Miniconda includes a Python distribution as well as the [Conda package manager](https://en.wikipedia.org/wiki/Conda_(package_manager))
 
