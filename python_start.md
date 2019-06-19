@@ -45,7 +45,7 @@ Formatting code
    - Otherwise, run ```$ pip install black``` while in the correct virtual/conda environment
    
 Linting
-- I use [flake8]() to [lint](https://en.wikipedia.org/wiki/Lint_(software)) my Python code
+- I use [flake8](http://flake8.pycqa.org/en/latest/) to [lint](https://en.wikipedia.org/wiki/Lint_(software)) my Python code
 - To set up:
    - Add ```"python.linting.enabled" : true``` to ```settings.json```
    - Add ```"python.linting.flake8Enabled" : true``` to ```settings.json```
