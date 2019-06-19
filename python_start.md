@@ -1,5 +1,5 @@
 # Pedigo's Python development recommendations
-Please let me know if anything is confusing or could be explained better
+Please let me know if anything is confusing or you have difficulty following this guide
 
 -------
 Get [miniconda](https://docs.conda.io/en/latest/miniconda.html)
