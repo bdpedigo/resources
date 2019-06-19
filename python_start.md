@@ -66,7 +66,7 @@ Sort Imports
 - This should be enabled by default
 - To use, right-click anywhere in your file and select sort imports
 
-
+---
 
 Other recommentations (Pedigo needs to finish this part)
 - VS Code Python data science tools 
