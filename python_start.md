@@ -26,24 +26,29 @@ Install [VS Code Python Extension](https://code.visualstudio.com/docs/python/pyt
 ---
 There are other libraries that I find very useful while programming in VS Code. 
 
-Modifying settings in VS Code
-In all of the below, I am showing the ```settings.json``` argument to change
-in order to activate these libraries.
+### Modifying settings in VS Code
 
+- In VS Code, go to ```Preferences``` > ```Settings```
+- At the top left you will see that you can modify User settings for all sessions of VS Code,
+  Workspace settings, or folder settings.
+- Hit the ```{}``` button to bring up your ```settings.json```
+- Add whatever settings you would like to change, making sure to keep the file in JSON format
+
+For all of the modifications below, I'll show what to add to your VS Code ```settings.json```.
 
 Formatting code 
 - I use [Black](https://black.readthedocs.io/en/stable/) as my code formatter 
 - It is very nice to not have to worry about line overhangs, spacing, etc. 
 - To set up:
-   - ```"python.formatting.provider" : "black"```
+   - Add ```"python.formatting.provider" : "black"``` to ```settings.json```
    - VS Code may prompt you to install ```Black```
    - Otherwise, run ```$ pip install black``` while in the correct virtual/conda environment
    
 Linting
 - I use [flake8]() to [lint](https://en.wikipedia.org/wiki/Lint_(software)) my Python code
 - To set up:
-   - ```"python.linting.enabled" : true```
-   - ```"python.linting.flake8Enabled" : true```
+   - Add ```"python.linting.enabled" : true``` to ```settings.json```
+   - Add ```"python.linting.flake8Enabled" : true``` to ```settings.json```
    - VS Code may prompt you to install ```flake8```
    - Otherwise, run ```$ pip install flake8``` while in the correct virtual/conda environment
    
