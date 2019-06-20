@@ -77,3 +77,9 @@ Other recommentations (Pedigo needs to finish this part)
    - Backend jupyter notebook not restarting when running code cells
 - Testing with Pytest
 - Setting up Github
+
+--- 
+
+Other resources 
+- [conda vs pip](https://www.anaconda.com/understanding-conda-and-pip/)
+- [conda tutorial](https://towardsdatascience.com/a-guide-to-conda-environments-bc6180fc533)
