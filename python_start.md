@@ -67,7 +67,13 @@ Sort Imports
 - To use, right-click anywhere in your file and select sort imports
 
 ---
+### Git and GitHub
+- [This](https://guides.github.com/activities/hello-world/) is an introduction to using a GitHub repository
+- [Quick overview](https://rogerdudler.github.io/git-guide/) of git
+- [Long tutorial](https://git-scm.com/docs/user-manual.html) on using git
 
+
+---
 Other recommentations (Pedigo needs to finish this part)
 - VS Code Python data science tools 
    - Running cells 
