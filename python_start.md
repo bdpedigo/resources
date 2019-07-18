@@ -1,7 +1,9 @@
 # Pedigo's Python development recommendations
 Please let me know if anything is confusing or you have difficulty following this guide
 
--------
+---
+
+## Python, environments, and packages
 Get [miniconda](https://docs.conda.io/en/latest/miniconda.html)
 - Miniconda includes a Python distribution as well as the [Conda package manager](https://en.wikipedia.org/wiki/Conda_(package_manager))
 
@@ -14,6 +16,11 @@ Create a [conda environment](https://docs.conda.io/projects/conda/en/latest/user
    - ```$ conda create -n {my_environment_name} python=3.7 scipy=0.15.0```
 - See the linked tutorial above for more details
 
+--- 
+
+## IDE
+"An [Integrated Development Environment (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment) is a software application that provides comprehensive facilities to computer programmers for software development."
+
 Install [VS Code](https://code.visualstudio.com/docs/setup/setup-overview)
 - This is what I recommend for your IDE
 
@@ -23,7 +30,7 @@ Install [VS Code Python Extension](https://code.visualstudio.com/docs/python/pyt
    - More details on selecting an environment [here](https://code.visualstudio.com/docs/python/environments)
 - Follow the rest of the instructions to go through creating and running a new Python file
 
----
+
 There are other libraries that I find very useful while programming in VS Code. 
 
 ### Modifying settings in VS Code
@@ -67,14 +74,16 @@ Sort Imports
 - To use, right-click anywhere in your file and select sort imports
 
 ---
-### Git and GitHub
+
+## Git and GitHub
+[Git](https://git-scm.com/) is a system for controling verisions and revisions of code. [GitHub](https://github.com/) is a site whete our code is hosted and organized. 
 - [This](https://guides.github.com/activities/hello-world/) is an introduction to using a GitHub repository
 - [Quick overview](https://rogerdudler.github.io/git-guide/) of git
-- [Long tutorial](https://git-scm.com/docs/user-manual.html) on using git
-
+- [Long tutorial](https://git-scm.com/docs/user-manual.html) on using git. Most important things are "Developing with Git" and "Sharing development with others" sections. 
 
 ---
-Other recommentations (Pedigo needs to finish this part)
+
+## Other recommentations (Pedigo needs to finish this part)
 - VS Code Python data science tools 
    - Running cells 
    - Formatting plots nicely
