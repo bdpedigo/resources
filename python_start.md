@@ -31,9 +31,7 @@ Install [VS Code Python Extension](https://code.visualstudio.com/docs/python/pyt
 - Follow the rest of the instructions to go through creating and running a new Python file
 
 
-There are other libraries that I find very useful while programming in VS Code. 
-
-### Modifying settings in VS Code
+### VS Code settings and add-ons
 
 - In VS Code, go to ```Preferences``` > ```Settings```
 - At the top left you will see that you can modify User settings for all sessions of VS Code,
